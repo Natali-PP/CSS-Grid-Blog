@@ -1,0 +1,84 @@
+:root {
+    --yellow: #ffc600;
+  }
+
+html {
+    color: #444;
+    font-family: Cambria, Cochin, Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: black;
+    text-decoration: underline wavy var(--yellow);
+}
+
+h1,
+h2 {
+    font-family: 'Volkhov', serif;
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+}
+
+.post{
+    margin: 150px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-gap: 10px 50px;
+    grid-template-columns: 3fr 12fr 5fr;
+}
+
+.post > *{
+    grid-column: 2/ -2;
+}
+
+.post > figure{
+    margin: 0;
+    grid-column: 1/ -1;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.post blockquote{
+    margin:0;
+    grid-column: 1 / -1;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+.tip{
+    padding:10px;
+    font-size: 14px;
+    align-self: center;
+}
+
+.tip-left{
+    grid-column: 1/ span 1;
+    border-right: 2px solid var(--yellow);
+    text-align: right;
+}
+
+.tip-right{
+    grid-column: span 1/-1;
+    border-left: 2px solid var(--yellow);
+    text-align: left;
+}
+
+.tip-right.long{
+    grid-row: span 10;
+    align-self: start;
+}
+
