@@ -1,4 +1,4 @@
-# CSS-Grid-Blog
-Practice CSS Grid styles
+# Tipical Blog :tea:
+<p>For this challenge, I tried to solve it using CSS Grid<p/>
 
-Natali-PP.github.io/CSS-Grid-Blog
+[Check it!](https://natali-pp.github.io/CSS-Grid-Blog)
